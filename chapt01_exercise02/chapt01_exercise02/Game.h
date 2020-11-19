@@ -1,6 +1,7 @@
 #pragma once
 #include "SDL.h"
 #include<vector>
+#include<time.h> 
 
 struct Vector2 {
 	float x;
@@ -22,12 +23,11 @@ private:
 	SDL_Window* mWindow;
 	SDL_Renderer* mRenderer;
 
+	// 两个vector分别存储不同小球的速度与位置
 	std::vector<Vector2> mBallPoses;
 	std::vector<Vector2> mBallVels;
 
 	Vector2 mPaddlePos;
-	Vector2 mBallPos;
-	Vector2 mBallVel;
 
 	int mPaddleDir;
 	int mBallNums;
