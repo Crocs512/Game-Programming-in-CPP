@@ -155,10 +155,10 @@ void Game::GenerateOutput()
 	);
 	// Top wall
 	SDL_Rect wall{
-		0,			// Top left x
-		0,			// Top left y
-		1024,		// Width
-		thickness	// Height
+		0,
+		0,
+		1024,
+		thickness
 	};
 	SDL_RenderFillRect(mRenderer, &wall);
 
