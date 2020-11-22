@@ -137,6 +137,50 @@
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="SpriteComponent.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Character.txt" />
+    <Text Include="Assets\LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Character01.png" />
+    <Image Include="Assets\Character02.png" />
+    <Image Include="Assets\Character03.png" />
+    <Image Include="Assets\Character04.png" />
+    <Image Include="Assets\Character05.png" />
+    <Image Include="Assets\Character06.png" />
+    <Image Include="Assets\Character07.png" />
+    <Image Include="Assets\Character08.png" />
+    <Image Include="Assets\Character09.png" />
+    <Image Include="Assets\Character10.png" />
+    <Image Include="Assets\Character11.png" />
+    <Image Include="Assets\Character12.png" />
+    <Image Include="Assets\Character13.png" />
+    <Image Include="Assets\Character14.png" />
+    <Image Include="Assets\Character15.png" />
+    <Image Include="Assets\Character16.png" />
+    <Image Include="Assets\Character17.png" />
+    <Image Include="Assets\Character18.png" />
+    <Image Include="Assets\Enemy01.png" />
+    <Image Include="Assets\Enemy02.png" />
+    <Image Include="Assets\Enemy03.png" />
+    <Image Include="Assets\Enemy04.png" />
+    <Image Include="Assets\Enemy05.png" />
+    <Image Include="Assets\Enemy06.png" />
+    <Image Include="Assets\Farback01.png" />
+    <Image Include="Assets\Farback02.png" />
+    <Image Include="Assets\Laser.png" />
+    <Image Include="Assets\Ship01.png" />
+    <Image Include="Assets\Ship02.png" />
+    <Image Include="Assets\Ship03.png" />
+    <Image Include="Assets\Ship04.png" />
+    <Image Include="Assets\Stars.png" />
+    <Image Include="Assets\Tiles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\MapLayer1.csv" />
+    <None Include="Assets\MapLayer2.csv" />
+    <None Include="Assets\MapLayer3.csv" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

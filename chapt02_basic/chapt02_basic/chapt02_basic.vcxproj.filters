@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="资源文件\Assets">
+      <UniqueIdentifier>{352a1c38-6086-4332-aec1-8a88eee5a4c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -68,5 +71,125 @@
     <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Character.txt">
+      <Filter>资源文件\Assets</Filter>
+    </Text>
+    <Text Include="Assets\LICENSE.txt">
+      <Filter>资源文件\Assets</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Character01.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character02.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character03.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character04.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character05.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character06.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character07.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character08.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character09.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character10.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character11.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character12.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character13.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character14.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character15.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character16.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character17.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Character18.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Enemy01.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Enemy02.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Enemy03.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Enemy04.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Enemy05.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Enemy06.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Farback01.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Farback02.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Laser.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Ship01.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Ship02.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Ship03.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Ship04.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Stars.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles.png">
+      <Filter>资源文件\Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\MapLayer1.csv">
+      <Filter>资源文件\Assets</Filter>
+    </None>
+    <None Include="Assets\MapLayer2.csv">
+      <Filter>资源文件\Assets</Filter>
+    </None>
+    <None Include="Assets\MapLayer3.csv">
+      <Filter>资源文件\Assets</Filter>
+    </None>
   </ItemGroup>
 </Project>
