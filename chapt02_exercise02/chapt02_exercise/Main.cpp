@@ -1,5 +1,6 @@
 #include "Game.h"
 #include "Math.h"
+
 int main(int argc, char** argv)
 {
 	Game game;
