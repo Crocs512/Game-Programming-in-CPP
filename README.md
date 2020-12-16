@@ -10,3 +10,7 @@ Source code of Game Programming in C++
 ## chapter 03
 ### basic
 ![image](https://github.com/Crocs512/Game-Programming-in-CPP/blob/main/chapt03_basic/chapt03-basic-fig.png)
+
+## chapter 04
+### basic
+![image](https://github.com/Crocs512/Game-Programming-in-CPP/blob/main/chapt04_basic/chapt04-basic-fig.png)
