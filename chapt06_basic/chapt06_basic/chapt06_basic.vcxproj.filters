@@ -14,17 +14,17 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="资源文件\Assets">
-      <UniqueIdentifier>{ca4bd951-0a7f-4d40-a966-261210f37718}</UniqueIdentifier>
+      <UniqueIdentifier>{ca108b77-0876-4217-9cb3-f096f5752694}</UniqueIdentifier>
     </Filter>
     <Filter Include="资源文件\Shaders">
-      <UniqueIdentifier>{ee9a0c88-2f0a-416b-88d9-7575f6d0ef5c}</UniqueIdentifier>
+      <UniqueIdentifier>{1e2b9e42-37c6-4024-bbd5-342d47a4590b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Actor.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Asteroid.h">
+    <ClInclude Include="CameraActor.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CircleComponent.h">
@@ -36,25 +36,25 @@
     <ClInclude Include="Game.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="InputComponent.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Laser.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshComponent.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MoveComponent.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Random.h">
+    <ClInclude Include="PlaneActor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Shader.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Ship.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SpriteComponent.h">
@@ -71,7 +71,7 @@
     <ClCompile Include="Actor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Asteroid.cpp">
+    <ClCompile Include="CameraActor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CircleComponent.cpp">
@@ -83,28 +83,28 @@
     <ClCompile Include="Game.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="InputComponent.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Laser.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Math.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshComponent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="MoveComponent.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Random.cpp">
+    <ClCompile Include="PlaneActor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Shader.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Ship.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SpriteComponent.cpp">
@@ -118,10 +118,25 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shaders\Basic.frag">
+    <None Include="Assets\Cube.gpmesh">
+      <Filter>资源文件\Assets</Filter>
+    </None>
+    <None Include="Assets\Plane.gpmesh">
+      <Filter>资源文件\Assets</Filter>
+    </None>
+    <None Include="Assets\Sphere.gpmesh">
+      <Filter>资源文件\Assets</Filter>
+    </None>
+    <None Include="Shaders\BasicMesh.frag">
       <Filter>资源文件\Shaders</Filter>
     </None>
-    <None Include="Shaders\Basic.vert">
+    <None Include="Shaders\BasicMesh.vert">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Phong.frag">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Phong.vert">
       <Filter>资源文件\Shaders</Filter>
     </None>
     <None Include="Shaders\Sprite.frag">
@@ -130,37 +145,26 @@
     <None Include="Shaders\Sprite.vert">
       <Filter>资源文件\Shaders</Filter>
     </None>
-    <None Include="Shaders\Transform.vert">
-      <Filter>资源文件\Shaders</Filter>
-    </None>
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Assets\Asteroid.png">
+    <Image Include="Assets\Cube.png">
       <Filter>资源文件\Assets</Filter>
     </Image>
-    <Image Include="Assets\Farback01.png">
+    <Image Include="Assets\Default.png">
       <Filter>资源文件\Assets</Filter>
     </Image>
-    <Image Include="Assets\Farback02.png">
+    <Image Include="Assets\HealthBar.png">
       <Filter>资源文件\Assets</Filter>
     </Image>
-    <Image Include="Assets\Laser.png">
+    <Image Include="Assets\Plane.png">
       <Filter>资源文件\Assets</Filter>
     </Image>
-    <Image Include="Assets\Ship.png">
+    <Image Include="Assets\Radar.png">
       <Filter>资源文件\Assets</Filter>
     </Image>
-    <Image Include="Assets\ShipWithThrust.png">
+    <Image Include="Assets\Sphere.png">
       <Filter>资源文件\Assets</Filter>
     </Image>
-    <Image Include="Assets\Stars.png">
-      <Filter>资源文件\Assets</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Assets\LICENSE.txt">
-      <Filter>资源文件\Assets</Filter>
-    </Text>
   </ItemGroup>
 </Project>
