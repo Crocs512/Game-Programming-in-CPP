@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Actor" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQADEAADCCIgAAFIgAAIIAAAQAgSggEIAAAAgAAAoA=</HashCode>
+      <FileName>Actor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioComponent" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQJAAAEAAAAAAAACAACAAABAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AudioComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioSystem">
+    <Position X="20" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQIAEAEBAAQAQAJACQAQQIAQAAAABAAIAAAAgQAAAg=</HashCode>
+      <FileName>AudioSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraActor" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAoABAgAIAIAAAAAAAAAAAAAAAAAABAAAgAAA=</HashCode>
+      <FileName>CameraActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircleComponent" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIACACAAAAAAAAAiAAAA=</HashCode>
+      <FileName>CircleComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQhAAAAAQAAAAAAAAAQAAAAAAAgAAAAAABCAAAAAAA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIJAAABAAQAQCEAAQCAQEIAAgkACIAAAAEAAgAAAQ=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector2" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAABBAAgEAAAQQRBCQAAAAAAgABgAAAAAAA=</HashCode>
+      <FileName>Math.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector3" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIgQAAIAABAAgEAAAQQRBCQAIAAAQgADkAQAAAAg=</HashCode>
+      <FileName>Math.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix3" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAEAAAAAAAQACAAAAACIAAEAAAAAAAAg=</HashCode>
+      <FileName>Math.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix4" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAgAIAAAAIAAAAAAQAyAAAAJDIAIEAAIAAIAAg=</HashCode>
+      <FileName>Math.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quaternion" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABIAAAAABAAAEAAAAABACAAAAAAAgEhgAQAQAAA=</HashCode>
+      <FileName>Math.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhECCAAEAAAhAAAAAAAAgAAAACABAAQIAAAgAAAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshComponent" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgBAACAEgAAAAAAAAAAAAgAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>MeshComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveComponent" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQMAFAAg=</HashCode>
+      <FileName>MoveComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaneActor" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlaneActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renderer" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkBgmQASgQABAwBRAAgAAQIAgAAQAgIAAICQABQIAAU=</HashCode>
+      <FileName>Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shader" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAoACAAAASAgAAAgAAAAAAAAAAAAAQBAAAAoIAAAA=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundEvent">
+    <Position X="16.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAQEAAAAAAAhEAAAAwgAAACAAABCACAIAAAAAIAAAA=</HashCode>
+      <FileName>SoundEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteComponent" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAAAgBACAAAAAAAACAAAIAAAhAIAQAAAAA=</HashCode>
+      <FileName>SpriteComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgECAAAAAhAAAAAAAAABAAAAAAAAAAAIAAMAAAAI=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VertexArray" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAAAAAAAAAAAggAAAAAABAAAAAAAAAIACAAAMAAAAg=</HashCode>
+      <FileName>VertexArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FMOD::System" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GCCYUJIqEuJgARqBFwGMUg5ADQBPAAoQoKArEZgEwR4=</HashCode>
+      <FileName>D:\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc\fmod.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FMOD::Studio::Bank" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc\fmod_studio.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FMOD::Studio::EventDescription" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc\fmod_studio.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FMOD::Studio::EventInstance" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc\fmod_studio.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FMOD::Studio::System" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc\fmod_studio.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FMOD::Studio::Bus" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc\fmod_studio.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DirectionalLight" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAgAAA=</HashCode>
+      <FileName>Renderer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
